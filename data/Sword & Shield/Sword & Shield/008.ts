@@ -60,12 +60,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 436219,
+				tcgplayer: 208276
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 436219,
+				tcgplayer: 208276
+			}
+		},
+	],
 
 	description: {
 		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
@@ -73,10 +83,6 @@ const card: Card = {
 
 	dexId: [632],
 
-	thirdParty: {
-		cardmarket: 436219,
-		tcgplayer: 208276
-	}
 }
 
 export default card

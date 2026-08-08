@@ -88,21 +88,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 436209,
+				tcgplayer: 208272
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 436209,
+				tcgplayer: 208272
+			}
+		},
+	],
 
 	description: {
 		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief."
 	},
 
-	thirdParty: {
-		cardmarket: 436209,
-		tcgplayer: 208272
-	}
 }
 
 export default card
