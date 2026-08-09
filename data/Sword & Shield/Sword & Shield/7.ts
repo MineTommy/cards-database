@@ -81,27 +81,21 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 436214,
-				tcgplayer: 208274
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 436214,
-				tcgplayer: 208274
-			}
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
 	description: {
 		en: "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry."
 	},
 
+	thirdParty: {
+		cardmarket: 436214,
+		tcgplayer: 208274
+	}
 }
 
 export default card

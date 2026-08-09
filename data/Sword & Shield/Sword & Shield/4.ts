@@ -98,26 +98,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 436199,
-				tcgplayer: 208270
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 436199,
-				tcgplayer: 208270
-			}
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
 	description: {
 		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
 	},
+
+	thirdParty: {
+		cardmarket: 436199,
+		tcgplayer: 208270
+	}
 }
 
 export default card

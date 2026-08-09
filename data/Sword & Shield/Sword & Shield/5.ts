@@ -57,27 +57,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 436204,
-				tcgplayer: 208271
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 436204,
-				tcgplayer: 208271
-			}
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
 	description: {
 		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
 	},
 
+	thirdParty: {
+		cardmarket: 436204,
+		tcgplayer: 208271
+	}
 }
 
 export default card
