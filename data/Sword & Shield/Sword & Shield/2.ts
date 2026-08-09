@@ -64,26 +64,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 436189,
-				tcgplayer: 208268
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 436189,
-				tcgplayer: 208268
-			}
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
 	description: {
 		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
 	},
+
+	thirdParty: {
+		cardmarket: 436189,
+		tcgplayer: 208268
+	}
 }
 
 export default card
