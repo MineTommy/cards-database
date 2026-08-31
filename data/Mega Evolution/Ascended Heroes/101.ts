@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [51],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		de: "Im Kampf gräbt es sich ein und attackiert den Gegner plötzlich aus einer unvorhersehbaren Richtung."
 	},
 
 	variants: [

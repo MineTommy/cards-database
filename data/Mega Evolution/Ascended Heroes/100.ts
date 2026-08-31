@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yuriko Akase",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [50],
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -56,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		de: "Seine Haut ist sehr dünn. Wird es Licht ausgesetzt, erhitzt sich sein Blut und es wird schwach."
 	},
 
 	variants: [
