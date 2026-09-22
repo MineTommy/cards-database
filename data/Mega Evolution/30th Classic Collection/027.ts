@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [493],
+
 	name: {
 		en: "Arceus VSTAR",
 		fr: "Arceus-VSTAR",
@@ -75,7 +77,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907967,
+				tcgplayer: 716208
+			}
+		}
+	],
 }
 
 export default card

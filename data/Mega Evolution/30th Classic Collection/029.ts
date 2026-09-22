@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [249],
+
 	name: {
 		en: "Lugia",
 		fr: "Lugia",
@@ -74,7 +76,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907945,
+				tcgplayer: 714386
+			}
+		}
+	],
 }
 
 export default card

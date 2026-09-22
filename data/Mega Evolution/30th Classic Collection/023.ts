@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [282],
+
 	name: {
 		en: "M Gardevoir EX",
 		fr: "M-Gardevoir EX",
@@ -57,7 +59,17 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907959,
+				tcgplayer: 716204
+			}
+		}
+	],
 }
 
 export default card

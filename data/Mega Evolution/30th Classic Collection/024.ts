@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [251],
+
 	name: {
 		en: "Shining Celebi",
 		fr: "Celebi brillant",
@@ -73,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907944,
+				tcgplayer: 716205
+			}
+		}
+	],
 }
 
 export default card

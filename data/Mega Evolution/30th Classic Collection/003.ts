@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [376],
+
 	name: {
 		en: "Metagross",
 		fr: "Metalosse",
@@ -56,7 +58,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907949,
+				tcgplayer: 716157
+			}
+		}
+	],
 }
 
 export default card

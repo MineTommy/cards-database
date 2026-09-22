@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [658],
+
 	name: {
 		en: "Greninja BREAK",
 		fr: "Amphinobi TURBO",
@@ -45,7 +47,17 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 0
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907960,
+				tcgplayer: 716162
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [491, 488],
+
 	name: {
 		en: "Darkrai & Cresselia LEGEND",
 		fr: "Darkrai & Cresselia LÉGENDE",
@@ -73,7 +75,17 @@ const card: Card = {
 		type: "Psychic"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907955,
+				tcgplayer: 716200
+			}
+		}
+	],
 }
 
 export default card

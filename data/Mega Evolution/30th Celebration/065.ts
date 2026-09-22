@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide."
+	},
+
 	name: {
 		en: "Mew",
 		fr: "Mew",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "danciao",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [151],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -53,7 +58,18 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907672,
+				tcgplayer: 716464
+			}
+		}
+	],
 }
 
 export default card

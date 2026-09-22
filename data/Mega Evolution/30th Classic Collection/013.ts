@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [794],
+
 	name: {
 		en: "Buzzwole GX",
 		fr: "Mouscoto GX",
@@ -98,7 +100,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907962,
+				tcgplayer: 716193
+			}
+		}
+	],
 }
 
 export default card

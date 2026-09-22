@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [25, 644],
+
 	name: {
 		en: "Pikachu & Zekrom GX",
 		fr: "Pikachu et Zekrom GX",
@@ -80,7 +82,17 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907963,
+				tcgplayer: 714373
+			}
+		}
+	],
 }
 
 export default card

@@ -37,7 +37,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection' | 'fossil-museum'
 	| 'worlds-2024' | 'worlds-2023' | 'worlds-2022' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'chicago-2009' | 'scrye' | 'inquest-gamer'
 	| 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen' | 'poketour-99'
-	| 'jose-cruz-galindo-resendiz'
+	| 'jose-cruz-galindo-resendiz' | '30th-anniversary'
 
 export interface variant_detailed {
 	/**
@@ -238,13 +238,20 @@ export interface Card {
 			// Black White rare
 			| 'Black White Rare'
 			| 'Mega Hyper Rare'
+			| 'Mega Attack Rare'
 			| 'Triple Rare'
 			// Japanese Character Rares (since SM11b Dream League)
 			| 'Character Rare' | 'Character Super Rare'
+			// Japanese Futuristic Rare (since M6a 30th Celebration)
+			| 'Futuristic Rare'
+			// Japanese RGB Rare — the red/green/blue Mew prints of M6a 30th Celebration
+			| 'RGB Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo' | 'Prism Star'
 			| 'Pikachu Rare' | 'Futuristic Rare'
+			// the red/green/blue Mew prints of 30th Celebration
+			| 'RGB Rare'
 
 	/**
 	 * Card Category

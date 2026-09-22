@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [248],
+
 	name: {
 		en: "Dark Tyranitar",
 		fr: "Tyranocif obscur",
@@ -101,7 +103,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907947,
+				tcgplayer: 716160
+			}
+		}
+	],
 }
 
 export default card

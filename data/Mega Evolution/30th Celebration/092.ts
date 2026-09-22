@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "Keisuke Azuma",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [197],
 	hp: 270,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -49,7 +50,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907699,
+				tcgplayer: 696835
+			}
+		}
+	],
 }
 
 export default card
